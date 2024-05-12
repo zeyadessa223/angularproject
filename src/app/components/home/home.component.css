@@ -1,0 +1,64 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  background-color: rgb(11, 11, 58);
+  width: 50%;
+  margin: auto;
+  border-radius: 30px;
+  padding: 8px;
+}
+.title h3 {
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(89, 148, 152, 0.483);
+}
+
+.title img {
+  width: 40px;
+  height: 50px;
+  box-shadow: 2px 2px 4px rgba(89, 148, 152, 0.483);
+  border-radius: 50%;
+}
+.rate-title {
+  width: 25%;
+  box-sizing: border-box;
+  background-color: rgb(167, 167, 192);
+  color: whitesmoke;
+  padding: 15px;
+  border-radius: 20px;
+}
+.card {
+  padding: 10px;
+}
+.rates {
+  background-color: rgb(224, 230, 230);
+  padding: 25px;
+}
+.custom-scroll-container {
+  height: 770px; /* Adjust the height as per your design */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: gray lightgray; /* Scrollbar colors */
+}
+
+/* Track */
+.custom-scroll-container::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+/* Handle */
+.custom-scroll-container::-webkit-scrollbar-thumb {
+  background-color: gray; /* Color of the scrollbar handle */
+  border-radius: 3px; /* Rounded corners */
+}
+
+/* Handle on hover */
+.custom-scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: darkgray; /* Color of the scrollbar handle on hover */
+}

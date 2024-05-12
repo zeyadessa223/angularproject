@@ -1,0 +1,13 @@
+.mylayout {
+  display: flex;
+  height: 100vh;
+}
+
+app-sidebar {
+  flex: 0 0 10%; /* Adjust the width as per your requirement */
+  height: 100%;
+}
+
+.main {
+  flex: 1; /* Takes up the remaining space */
+}

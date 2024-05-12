@@ -1,0 +1,32 @@
+<!--creating the home page which includes the the user cards , user charts and user labes-->
+<div class="custom-scroll-container">
+  <!--Create custom scrollbar for the homepage component-->
+  <div class="container">
+    <div class="title">
+      <h3>Welcome to users dashboard</h3>
+      <img src="../../assets/emoji.png" alt="emoji" />
+    </div>
+    <div class="d-flex juustify-content-center gap-4 mt-5 rate-title">
+      <h5>our users</h5>
+      <div>
+        <i class="fa fa-user-plus fa-2x" style="color: aliceblue"></i>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <app-users></app-users>
+    </div>
+    <div class="d-flex juustify-content-center gap-4 mt-5 rate-title">
+      <h5>usage monthly rates</h5>
+      <div><i class="fa fa-signal fa-2x" style="color: white"></i></div>
+    </div>
+    <div class="row mt-5 rates">
+      <div class="col-md-6">
+        <app-userchart></app-userchart>
+      </div>
+      <div class="col-md-5">
+        <app-userrates></app-userrates>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+/* user.component.css */
+
+/* User Card Styling */
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(85, 105, 205, 0.457);
+  transition: box-shadow 0.9s ease, transform 0.9s ease;
+}
+/* User Card  animations Styling */
+.card:hover {
+  box-shadow: 0 8px 16px rgba(138, 49, 148, 0.457);
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  width: 25%;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+/* Pagination Styling */
+.pagination {
+  margin: 20px 0;
+}
+
+.page-item {
+  cursor: pointer;
+}
+
+.page-link {
+  border-radius: 0 !important;
+}
+
+.page-link:hover {
+  background-color: #f0f0f0;
+  color: blue;
+}
+/* Searchbar Styling */
+.search-bar {
+  background-color: blue;
+  padding: 10px;
+  width: 25%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.search-bar input {
+  text-align: center;
+}

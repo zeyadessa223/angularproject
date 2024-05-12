@@ -1,0 +1,35 @@
+.users-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+.user-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.label {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.men {
+  background: linear-gradient(to right, #4caf50 40%, white 40%);
+}
+
+.women {
+  background: linear-gradient(to right, #ffc107 45%, white 45%);
+}
+
+.children {
+  background: linear-gradient(to right, #2196f3 15%, white 15%);
+}

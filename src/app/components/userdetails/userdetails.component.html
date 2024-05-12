@@ -1,0 +1,26 @@
+<!--I used the loading ngx-spinner by installing it using npm-->
+<ngx-spinner
+  bdOpacity="0.9"
+  bdColor="rgba(51, 51, 51, 0.8)"
+  size="medium"
+  color="#fff"
+  type="ball-atom"
+  [fullScreen]="false"
+></ngx-spinner>
+<!--The user cards component-->
+<div class="container">
+  <div class="user-card">
+    <div>
+      <img [src]="user.avatar" class="img-fluid" alt="User Avatar" />
+    </div>
+    <div class="user-card-body">
+      <h2>{{ user.first_name }} {{ user.last_name }}</h2>
+      <p>User ID: {{ user.id }}</p>
+      <p>Email: {{ user.email }}</p>
+    </div>
+  </div>
+  <div class="mt-5 text-center">
+    <!--button to back to the home page by using router link-->
+    <a class="btn btn-primary" routerLink="/"> Back to home page</a>
+  </div>
+</div>
