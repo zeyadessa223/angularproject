@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxSpinnerModule, NgxSpinnerService } from 'ngx-spinner';
 import { FormsModule } from '@angular/forms';
+import { NgxPaginationModule } from 'ngx-pagination';
 @Component({
   selector: 'app-users',
   standalone: true,
@@ -14,6 +15,7 @@ import { FormsModule } from '@angular/forms';
     HttpClientModule,
     NgxSpinnerModule,
     FormsModule,
+    NgxPaginationModule,
   ],
   providers: [UserService],
   templateUrl: './users.component.html',
@@ -23,7 +25,7 @@ export class UsersComponent implements OnInit {
   //implempent OnInit lifecycle hook
   users: any[] = [];
   filteredUsers: any[] = []; // prop to search (filter) user by id
-  currentPage: number = 1;
+  currentPage: number = 2;
   usersPerPage: number = 6;
   searchTerm: string = '';
   constructor(

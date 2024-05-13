@@ -17,7 +17,18 @@
   <div><i class="fa fa-search fa-2x" style="color: white"></i></div>
 </div>
 <div class="row">
-  <div class="col-md-4" *ngFor="let user of filteredUsers">
+  <div
+    class="col-md-4"
+    *ngFor="
+      let user of filteredUsers
+        | paginate
+          : {
+              itemsPerPage: usersPerPage,
+              currentPage: currentPage,
+              totalItems: filteredUsers.length
+            }
+    "
+  >
     <div class="card p-2">
       <div class="d-flex justify-content-center align-items-center gap-4">
         <img [src]="user.avatar" class="card-img-top" alt="" user avatat />

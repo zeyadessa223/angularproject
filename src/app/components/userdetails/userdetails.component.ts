@@ -4,7 +4,6 @@ import { UserService } from '../../services/user.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxSpinnerModule, NgxSpinnerService } from 'ngx-spinner';
 
-
 @Component({
   selector: 'app-userdetails',
   standalone: true,
