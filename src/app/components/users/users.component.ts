@@ -25,7 +25,7 @@ export class UsersComponent implements OnInit {
   //implempent OnInit lifecycle hook
   users: any[] = [];
   filteredUsers: any[] = []; // prop to search (filter) user by id
-  currentPage: number = 2;
+  currentPage: number = 1;
   usersPerPage: number = 6;
   searchTerm: string = '';
   constructor(

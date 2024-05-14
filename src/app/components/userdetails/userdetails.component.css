@@ -1,3 +1,25 @@
+#userCardBody {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Apply animation to reveal user details */
+#userCardBody {
+  animation: fadeInUp 2s ease forwards;
+}
+
+/* Keyframes for animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /*styling the user details component*/
 img {
   width: 400px;

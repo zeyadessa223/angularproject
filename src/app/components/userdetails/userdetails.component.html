@@ -9,11 +9,11 @@
 ></ngx-spinner>
 <!--The user cards component-->
 <div class="container">
-  <div class="user-card">
+  <div class="user-card" id="userCard">
     <div>
       <img [src]="user.avatar" class="img-fluid" alt="User Avatar" />
     </div>
-    <div class="user-card-body">
+    <div class="user-card-body" id="userCardBody">
       <h2>{{ user.first_name }} {{ user.last_name }}</h2>
       <p>User ID: {{ user.id }}</p>
       <p>Email: {{ user.email }}</p>
