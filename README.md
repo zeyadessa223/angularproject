@@ -45,5 +45,7 @@ cd angularproject
 cmd:
 
 npm install
+
 ng build
+
 ng sevrve
