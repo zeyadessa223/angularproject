@@ -53,11 +53,6 @@ export class UsersComponent implements OnInit {
       return user.id.toString().includes(this.searchTerm);
     });
   }
-  /* get paginatedUsers() {
-    const startIndex = (this.currentPage - 1) * this.usersPerPage;
-    const endIndex = startIndex + this.usersPerPage;
-    return this.users.slice(startIndex, endIndex);
-  }*/
   get totalPages(): number {
     return Math.ceil(this.users.length / this.usersPerPage);
   }
