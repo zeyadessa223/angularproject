@@ -36,3 +36,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 NgxPaginate to apply paigantion for users which is two pages each page has six users  by using paginate pipe.
 NgxSpinner to apply lazy loading for fetching data.
 I used also CSS & CSS3 to apply some aniamtons on my project.
+
+##Clone and run:
+by using git bash : git clone https://github.com/zeyadessa223/angularproject.git
+cd angular project>
+cmd:
+npm install
+ng build
+ng sevrve
