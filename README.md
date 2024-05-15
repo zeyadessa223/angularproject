@@ -1,6 +1,12 @@
 # Userdashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1
+and also some tools like html,css ,bootstrap css v5, css3.
+This project is a user dashboard project which get no of users and also get user by id  which has some features like pagination and search bt user id.
+the compoents I used to create : SideBar compoent which acts as the header of my project ,
+the users compenonet which has collection of users cards each card has : user name , user , id, profile picture , button navigtaes  me to user details , a seacrh bar to search for the user whtih id,
+th user details component : has user name , id , profie picture and user email.
+user charts components  which has graph charts and user rates which has user labels about the % rate of user types(man ,women .children).
 
 ## Development server
 
@@ -25,3 +31,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Libraries.
+NgxPaginate to apply paigantion for users which is two pages each page has six users  by using paginate pipe.
+NgxSpinner to apply lazy loading for fetching data.
+I used also CSS & CSS3 to apply some aniamtons on my project.
