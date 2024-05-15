@@ -48,4 +48,4 @@ npm install
 
 ng build
 
-ng sevrve
+ng serve
